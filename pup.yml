@@ -1,0 +1,71 @@
+# mobile-app/pubspec.yaml
+name: sulaf_pdf
+description: تطبيق المكتبة الرقمية العربية
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  get: ^4.6.5
+  
+  # HTTP & API
+  dio: ^5.0.3
+  http: ^0.13.5
+  
+  # Firebase
+  firebase_core: ^2.8.0
+  firebase_auth: ^4.2.5
+  firebase_storage: ^11.0.7
+  cloud_firestore: ^4.4.3
+  
+  # PDF & Files
+  syncfusion_flutter_pdfviewer: ^21.2.10
+  pdf: ^3.8.4
+  path_provider: ^2.0.13
+  file_picker: ^5.2.11
+  open_file: ^3.2.1
+  
+  # Audio
+  audioplayers: ^5.0.1
+  just_audio: ^0.9.35
+  
+  # OCR & Camera
+  flutter_tesseract_ocr: ^3.1.0
+  image_picker: ^0.8.7
+  camera: ^0.10.5
+  
+  # Text-to-Speech
+  flutter_tts: ^3.7.0
+  
+  # UI & Design
+  google_fonts: ^4.0.4
+  lottie: ^2.3.2
+  animated_text_kit: ^4.2.2
+  carousel_slider: ^4.2.1
+  shimmer: ^3.0.0
+  
+  # Charts
+  fl_chart: ^0.62.0
+  
+  # Translations
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+  
+  # Utilities
+  shared_preferences: ^2.0.19
+  connectivity_plus: ^3.0.2
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.1.10
+  webview_flutter: ^4.2.2
+  permission_handler: ^10.3.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
